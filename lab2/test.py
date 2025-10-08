@@ -37,5 +37,5 @@ class TestTwoSum(unittest.TestCase):
         actual = two_sum(nums, target)
         self.assertEqual(sorted(actual), sorted(expected))
 
-if __name__ == 'main':
+if __name__ == '__main__':
     unittest.main()
